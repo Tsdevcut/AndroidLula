@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lula Driver</string>
+    <string name="title_activity_maps_home">Map</string>
+    <string name="title_activity_login">Login Driver</string>
+    <string name="title_activity_main_screen">Home</string>
+
+
+</resources>

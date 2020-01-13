@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/login_backdr"
+    tools:context="www.tsdevcut.co.za.luladrivedemo2.Login"
+   >
+
+    <ImageView
+        android:background="@drawable/lulagreenlogo4"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageViewLogoIcon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextLoginUsername"
+        android:layout_below="@+id/imageViewLogoIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/whites"
+        />
+
+    <EditText
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextLoginPassword"
+        android:layout_below="@+id/editTextLoginUsername"
+        android:password="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/whites"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Log In"
+        android:textColor="@color/whites"
+        android:id="@+id/buttonLoginLogIn"
+        android:layout_below="@+id/editTextLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:onClick="btnDriverLoginAction"
+        />
+</RelativeLayout>
